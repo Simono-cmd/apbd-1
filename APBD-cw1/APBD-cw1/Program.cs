@@ -9,8 +9,9 @@ static double ObliczSrednia(int[] liczby)
 }
 
 
-static double ObliczMax(int[] liczby)
+static double ObliczMaximum(int[] liczby)
 {
+    int n = liczby.Length;
     return liczby.Length == 0 ? 0 : liczby.Max();
 }
 //poprawione
