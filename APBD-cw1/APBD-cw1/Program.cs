@@ -12,5 +12,5 @@ static double ObliczMax(int[] liczby)
 {
     return liczby.Length == 0 ? 0 : liczby.Max();
 }
-
+//poprawione
 
