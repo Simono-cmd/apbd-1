@@ -8,7 +8,10 @@ static double ObliczSrednia(int[] liczby)
     return liczby.Length == 0 ? 0 : liczby.Average();
 }
 
-static double Obliczmax(int[] liczby)
+
+static double ObliczMax(int[] liczby)
 {
     return liczby.Length == 0 ? 0 : liczby.Max();
 }
+//poprawione
+
